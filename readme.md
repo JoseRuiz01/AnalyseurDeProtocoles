@@ -21,7 +21,7 @@ et on concatène les traces dans une autre liste définitif.
 
 
 
-## 3. `sorties.py`
+## 3. `Sorties.py`
 On reçoit la trace à traiter et on passe les différents 
 protocoles en décomposant la trace en toutes les octets 
 pour être traduit dans l'information requisé.
