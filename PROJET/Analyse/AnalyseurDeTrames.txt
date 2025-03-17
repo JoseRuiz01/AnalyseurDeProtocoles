@@ -1,0 +1,557 @@
+Analyse de la trame N°: 1
+
+Frame 1: 342 bytes on wire (2736 bits) 342 bytes captured (2736 bits) on interface any, id 0
+
+Ethernet II, Src: 00:08:74:4f:36:23 Dst: ff:ff:ff:ff:ff:ff
+	Destination: ff:ff:ff:ff:ff:ff
+	Source: 00:08:74:4f:36:23
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 0.0.0.0 Dst: 255.255.255.255
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x148  328 bytes
+	Identification: 0xb310
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x80
+	Protocol : UDP (17)
+	Header Cheksum: 0x8695
+	Source Address: 0.0.0.0
+	Destination Address: 255.255.255.255
+
+User Datagram Protocol, Src Port: 68, Dst port: 67
+	Source Port: 68
+	Destination Port: 67
+	Length: 308
+	Checksum: 0xe97b[unverified]
+	UDP payload (300 bytes)
+
+Dynamic Host Configuration Protocol ()
+	Message type:  Boot Request (1)
+	Hardware type: Ethernet (0x01)
+	Hardware address legnth: 06
+	Hops: 00
+	Transaction ID: 0x3e5e0ce3
+	Seconds elapsed: 0000
+	Bootp flags: 0x8000
+	Client IP address: 0.0.0.0
+	Your (client) IP address: 0.0.0.0
+	Next server IP address: 0.0.0.0
+	Relay agent IP address: 0.0.0.0
+	Client MAC address: 0:8:116:79:54:35
+	Client hardware address padding: 0000000000
+	Server host name not given
+	Boot file name not given
+	Magic cookie: DHCP
+Option: (53) DHCP Message Type ()
+	Length: 1
+	DHCP (1)
+Option: (116) DHCP Auto-Configuration
+	Length: 1
+	DHCP Auto-Configuration : AutoConfigure (1)
+Option: (61) Client identifier
+	Length: 7
+	Hardware Type: Ethernet (0x01)
+	Client MAC Adress: 00:08:74:4f:36:23
+Option: (50) Requested Address IP (192.168.1.101)
+	Requested Address IP: 192.168.1.101
+Option: (12) Host Name
+	Length: 4
+	Host Name : 4e6f68
+Option: (60) Vendor class identifier
+	Length: 8
+	Vendor class identifier: 4d53465420352e
+Option: (55) Parameter Request List
+	Length: 17
+	Parameter Request List: 1
+	Parameter Request List: 15
+	Parameter Request List: 3
+	Parameter Request List: 6
+	Parameter Request List: 44
+	Parameter Request List: 46
+	Parameter Request List: 47
+	Parameter Request List: 31
+	Parameter Request List: 33
+	Parameter Request List: 249
+	Parameter Request List: 43
+Option: (255) End
+	Option End: 255
+Padding: 000000000000000000
+Analyse de la trame N°: 2
+
+Frame 2: 590 bytes on wire (4720 bits) 590 bytes captured (4720 bits) on interface any, id 0
+
+Ethernet II, Src: 00:06:25:da:af:73 Dst: ff:ff:ff:ff:ff:ff
+	Destination: ff:ff:ff:ff:ff:ff
+	Source: 00:06:25:da:af:73
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 192.168.1.1 Dst: 255.255.255.255
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x240  576 bytes
+	Identification: 0x108
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x96
+	Protocol : UDP (17)
+	Header Cheksum: 0x5ffc
+	Source Address: 192.168.1.1
+	Destination Address: 255.255.255.255
+
+User Datagram Protocol, Src Port: 67, Dst port: 68
+	Source Port: 67
+	Destination Port: 68
+	Length: 556
+	Checksum: 0x7223[unverified]
+	UDP payload (548 bytes)
+
+Dynamic Host Configuration Protocol ()
+	Message type: Boot Reply
+	Hardware type: Ethernet (0x01)
+	Hardware address legnth: 06
+	Hops: 00
+	Transaction ID: 0x3e5e0ce3
+	Seconds elapsed: 0000
+	Bootp flags: 0x0000
+	Client IP address: 0.0.0.0
+	Your (client) IP address: 192.168.1.101
+	Next server IP address: 0.0.0.0
+	Relay agent IP address: 0.0.0.0
+	Client MAC address: 0:8:116:79:54:35
+	Client hardware address padding: 0000000000
+	Server host name not given
+	Boot file name not given
+	Magic cookie: DHCP
+Option: (53) DHCP Message Type ()
+	Length: 1
+	DHCP (2)
+Option: (1) Subnet Mask (255.255.255.0)
+	Length: 4
+	Subnet Mask: 255.255.255.0
+Option: (3) Router
+	Length: 4
+	Router: c0.a8.01
+Option: (6) Domain Name Server
+	Length: 8
+	Domain Name Server: 63.240.76.19
+	Domain Name Server: 204.127.198.19
+Option: (15) Domain Name
+	Length: 22
+	Domain Name: 6e65322e636c69656e74322e61747462692e636f6d
+Option inconnue, code 51
+	Length: 4
+	data: 000151
+Option: (54) DHCP Server Identifier
+	Length: 4
+	DHCP Server Identifier 192.168.1.1
+Option: (255) End
+	Option End: 255
+Padding: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Analyse de la trame N°: 3
+
+Frame 3: 342 bytes on wire (2736 bits) 342 bytes captured (2736 bits) on interface any, id 0
+
+Ethernet II, Src: 00:08:74:4f:36:23 Dst: ff:ff:ff:ff:ff:ff
+	Destination: ff:ff:ff:ff:ff:ff
+	Source: 00:08:74:4f:36:23
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 0.0.0.0 Dst: 255.255.255.255
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x148  328 bytes
+	Identification: 0xb311
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x80
+	Protocol : UDP (17)
+	Header Cheksum: 0x8694
+	Source Address: 0.0.0.0
+	Destination Address: 255.255.255.255
+
+User Datagram Protocol, Src Port: 68, Dst port: 67
+	Source Port: 68
+	Destination Port: 67
+	Length: 308
+	Checksum: 0xae85[unverified]
+	UDP payload (300 bytes)
+
+Dynamic Host Configuration Protocol ()
+	Message type:  Boot Request (1)
+	Hardware type: Ethernet (0x01)
+	Hardware address legnth: 06
+	Hops: 00
+	Transaction ID: 0x3e5e0ce3
+	Seconds elapsed: 0000
+	Bootp flags: 0x0000
+	Client IP address: 0.0.0.0
+	Your (client) IP address: 0.0.0.0
+	Next server IP address: 0.0.0.0
+	Relay agent IP address: 0.0.0.0
+	Client MAC address: 0:8:116:79:54:35
+	Client hardware address padding: 0000000000
+	Server host name not given
+	Boot file name not given
+	Magic cookie: DHCP
+Option: (53) DHCP Message Type ()
+	Length: 1
+	DHCP (3)
+Option: (61) Client identifier
+	Length: 7
+	Hardware Type: Ethernet (0x01)
+	Client MAC Adress: 00:08:74:4f:36:23
+Option: (50) Requested Address IP (192.168.1.101)
+	Requested Address IP: 192.168.1.101
+Option: (54) DHCP Server Identifier
+	Length: 4
+	DHCP Server Identifier 192.168.1.1
+Option: (12) Host Name
+	Length: 4
+	Host Name : 4e6f68
+Option: (60) Vendor class identifier
+	Length: 8
+	Vendor class identifier: 4d53465420352e
+Option: (55) Parameter Request List
+	Length: 17
+	Parameter Request List: 1
+	Parameter Request List: 15
+	Parameter Request List: 3
+	Parameter Request List: 6
+	Parameter Request List: 44
+	Parameter Request List: 46
+	Parameter Request List: 47
+	Parameter Request List: 31
+	Parameter Request List: 33
+	Parameter Request List: 249
+	Parameter Request List: 43
+Option: (255) End
+	Option End: 255
+Padding: 000000000000
+Analyse de la trame N°: 4
+
+Frame 4: 342 bytes on wire (2736 bits) 342 bytes captured (2736 bits) on interface any, id 0
+
+Ethernet II, Src: 00:08:74:4f:36:23 Dst: ff:ff:ff:ff:ff:ff
+	Destination: ff:ff:ff:ff:ff:ff
+	Source: 00:08:74:4f:36:23
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 0.0.0.0 Dst: 255.255.255.255
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x148  328 bytes
+	Identification: 0xb310
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x80
+	Protocol : UDP (17)
+	Header Cheksum: 0x8695
+	Source Address: 0.0.0.0
+	Destination Address: 255.255.255.255
+
+User Datagram Protocol, Src Port: 68, Dst port: 67
+	Source Port: 68
+	Destination Port: 67
+	Length: 308
+	Checksum: 0xe97b[unverified]
+	UDP payload (300 bytes)
+
+Dynamic Host Configuration Protocol ()
+	Message type:  Boot Request (1)
+	Hardware type: Ethernet (0x01)
+	Hardware address legnth: 06
+	Hops: 00
+	Transaction ID: 0x3e5e0ce3
+	Seconds elapsed: 0000
+	Bootp flags: 0x8000
+	Client IP address: 0.0.0.0
+	Your (client) IP address: 0.0.0.0
+	Next server IP address: 0.0.0.0
+	Relay agent IP address: 0.0.0.0
+	Client MAC address: 0:8:116:79:54:35
+	Client hardware address padding: 0000000000
+	Server host name not given
+	Boot file name not given
+	Magic cookie: DHCP
+Option: (53) DHCP Message Type ()
+	Length: 1
+	DHCP (1)
+Option: (116) DHCP Auto-Configuration
+	Length: 1
+	DHCP Auto-Configuration : AutoConfigure (1)
+Option: (61) Client identifier
+	Length: 7
+	Hardware Type: Ethernet (0x01)
+	Client MAC Adress: 00:08:74:4f:36:23
+Option: (50) Requested Address IP (192.168.1.101)
+	Requested Address IP: 192.168.1.101
+Option: (12) Host Name
+	Length: 4
+	Host Name : 4e6f68
+Option: (60) Vendor class identifier
+	Length: 8
+	Vendor class identifier: 4d53465420352e
+Option: (55) Parameter Request List
+	Length: 17
+	Parameter Request List: 1
+	Parameter Request List: 15
+	Parameter Request List: 3
+	Parameter Request List: 6
+	Parameter Request List: 44
+	Parameter Request List: 46
+	Parameter Request List: 47
+	Parameter Request List: 31
+	Parameter Request List: 33
+	Parameter Request List: 249
+	Parameter Request List: 43
+Option: (255) End
+	Option End: 255
+Padding: 000000000000000000
+Analyse de la trame N°: 5
+
+Frame 5: 590 bytes on wire (4720 bits) 590 bytes captured (4720 bits) on interface any, id 0
+
+Ethernet II, Src: 00:06:25:da:af:73 Dst: ff:ff:ff:ff:ff:ff
+	Destination: ff:ff:ff:ff:ff:ff
+	Source: 00:06:25:da:af:73
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 192.168.1.1 Dst: 255.255.255.255
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x240  576 bytes
+	Identification: 0x108
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x96
+	Protocol : UDP (17)
+	Header Cheksum: 0x5ffc
+	Source Address: 192.168.1.1
+	Destination Address: 255.255.255.255
+
+User Datagram Protocol, Src Port: 67, Dst port: 68
+	Source Port: 67
+	Destination Port: 68
+	Length: 556
+	Checksum: 0x7223[unverified]
+	UDP payload (548 bytes)
+
+Dynamic Host Configuration Protocol ()
+	Message type: Boot Reply
+	Hardware type: Ethernet (0x01)
+	Hardware address legnth: 06
+	Hops: 00
+	Transaction ID: 0x3e5e0ce3
+	Seconds elapsed: 0000
+	Bootp flags: 0x0000
+	Client IP address: 0.0.0.0
+	Your (client) IP address: 192.168.1.101
+	Next server IP address: 0.0.0.0
+	Relay agent IP address: 0.0.0.0
+	Client MAC address: 0:8:116:79:54:35
+	Client hardware address padding: 0000000000
+	Server host name not given
+	Boot file name not given
+	Magic cookie: DHCP
+Option: (53) DHCP Message Type ()
+	Length: 1
+	DHCP (2)
+Option: (1) Subnet Mask (255.255.255.0)
+	Length: 4
+	Subnet Mask: 255.255.255.0
+Option: (3) Router
+	Length: 4
+	Router: c0.a8.01
+Option: (6) Domain Name Server
+	Length: 8
+	Domain Name Server: 63.240.76.19
+	Domain Name Server: 204.127.198.19
+Option: (15) Domain Name
+	Length: 22
+	Domain Name: 6e65322e636c69656e74322e61747462692e636f6d
+Option inconnue, code 51
+	Length: 4
+	data: 000151
+Option: (54) DHCP Server Identifier
+	Length: 4
+	DHCP Server Identifier 192.168.1.1
+Option: (255) End
+	Option End: 255
+Padding: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Analyse de la trame N°: 6
+
+Frame 6: 342 bytes on wire (2736 bits) 342 bytes captured (2736 bits) on interface any, id 0
+
+Ethernet II, Src: 00:08:74:4f:36:23 Dst: ff:ff:ff:ff:ff:ff
+	Destination: ff:ff:ff:ff:ff:ff
+	Source: 00:08:74:4f:36:23
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 0.0.0.0 Dst: 255.255.255.255
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x148  328 bytes
+	Identification: 0xb311
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x80
+	Protocol : UDP (17)
+	Header Cheksum: 0x8694
+	Source Address: 0.0.0.0
+	Destination Address: 255.255.255.255
+
+User Datagram Protocol, Src Port: 68, Dst port: 67
+	Source Port: 68
+	Destination Port: 67
+	Length: 308
+	Checksum: 0xae85[unverified]
+	UDP payload (300 bytes)
+
+Dynamic Host Configuration Protocol ()
+	Message type:  Boot Request (1)
+	Hardware type: Ethernet (0x01)
+	Hardware address legnth: 06
+	Hops: 00
+	Transaction ID: 0x3e5e0ce3
+	Seconds elapsed: 0000
+	Bootp flags: 0x0000
+	Client IP address: 0.0.0.0
+	Your (client) IP address: 0.0.0.0
+	Next server IP address: 0.0.0.0
+	Relay agent IP address: 0.0.0.0
+	Client MAC address: 0:8:116:79:54:35
+	Client hardware address padding: 0000000000
+	Server host name not given
+	Boot file name not given
+	Magic cookie: DHCP
+Option: (53) DHCP Message Type ()
+	Length: 1
+	DHCP (3)
+Option: (61) Client identifier
+	Length: 7
+	Hardware Type: Ethernet (0x01)
+	Client MAC Adress: 00:08:74:4f:36:23
+Option: (50) Requested Address IP (192.168.1.101)
+	Requested Address IP: 192.168.1.101
+Option: (54) DHCP Server Identifier
+	Length: 4
+	DHCP Server Identifier 192.168.1.1
+Option: (12) Host Name
+	Length: 4
+	Host Name : 4e6f68
+Option: (60) Vendor class identifier
+	Length: 8
+	Vendor class identifier: 4d53465420352e
+Option: (55) Parameter Request List
+	Length: 17
+	Parameter Request List: 1
+	Parameter Request List: 15
+	Parameter Request List: 3
+	Parameter Request List: 6
+	Parameter Request List: 44
+	Parameter Request List: 46
+	Parameter Request List: 47
+	Parameter Request List: 31
+	Parameter Request List: 33
+	Parameter Request List: 249
+	Parameter Request List: 43
+Option: (255) End
+	Option End: 255
+Padding: 000000000000
+Analyse de la trame N°: 7
+
+Frame 7: 221 bytes on wire (1768 bits) 221 bytes captured (1768 bits) on interface any, id 0
+
+Ethernet II, Src: 00:07:e9:0c:90:62 Dst: 00:20:ed:87:fd:e6
+	Destination: 00:20:ed:87:fd:e6
+	Source: 00:07:e9:0c:90:62
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 132.227.74.2 Dst: 132.227.61.122
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0xcf  207 bytes
+	Identification: 0x2a2d
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x3f
+	Protocol : UDP (17)
+	Header Cheksum: 0xbfae
+	Source Address: 132.227.74.2
+	Destination Address: 132.227.61.122
+
+User Datagram Protocol, Src Port: 53, Dst port: 34053
+	Source Port: 53
+	Destination Port: 34053
+	Length: 187
+	Checksum: 0xa13b[unverified]
+	UDP payload (179 bytes)
+
+Domain Name System (response)
+	Transaction ID: 0xa071
+	Flags: 0xa071 (1000010110000000) Standard query response, No error
+			Response: Message is a response (1)
+			Op Code: Standard query (0)
+			Authoritative: Server is an authority for domain (1)
+			Truncated: Message is not truncated (0)
+			Recursion desired: Do query recursively (1)
+			Recursion available: Server can do recursive queries (1)
+			Z: reserved (0)
+			Answer authenticated: Answer/authority portion was authenticated by the server (0)
+			Non-authenticated data: Unacceptable
+			Reply code: No error (0)
+	Questions: 1
+	Answer RRs: 2
+	Authority RRs: 3
+	Additional RRs: 3
+
+	Queries
+		www.lip6.fr: type A, class IN
+	Answers
+		www.lip6.fr: type CNAME, class IN, TLT 21600 sec, cname horuslip6.fr
+		horus.lip6.fr: type A, class IN, TLT 21600 sec, addr 132.227.60.13
+	Authoritative nameservers
+		lip6.fr type NS, class IN, TLT 21600 sec, ns isislip6.fr
+		lip6.fr type NS, class IN, TLT 21600 sec, ns osirislip6.fr
+		lip6.fr type NS, class IN, TLT 21600 sec, ns soleil.uvsqfr
+	Additional records
+		isis.lip6.fr type A, class IN, TLT 21600 sec, addr 132.227.60.2
+		osiris.lip6.fr type A, class IN, TLT 21600 sec, addr 132.227.60.30
+		soleil.uvsq.fr type A, class IN, TLT 71371 sec, addr 193.51.24.1

@@ -1,0 +1,12 @@
+Modification du code de fonction.py:
+- Il sauve les lignes de chaque trame qui commence avec l'offset 0 dans une liste finale.
+- Il supprime les espaces, les offset, les lignes qui ne sont pas en hexadécimal, les lignes qui ne sont pas séparées par 16 octets, etc.
+
+
+On obtient par exemple: 
+  liste_trame {
+                [0]: [['00', '04', ..., '00'], ['45', 'c0', ..., '00'], ...]
+                [1]: [['00', '00', ..., '00'], ...]
+                }
+                
+                "Dans cette exemple on a 2 trames de '0000' à '0060' et une autre de '0000' à '00d0'"

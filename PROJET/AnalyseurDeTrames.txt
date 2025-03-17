@@ -1,0 +1,78 @@
+Analyse de la trame N°: 1
+
+Frame 1: 552 bytes on wire (4416 bits) 552 bytes captured (4416 bits) on interface any, id 0
+
+Ethernet II, Src: 00:09:0f:09:00:02 Dst: a8:6d:aa:73:2a:03
+	Destination: a8:6d:aa:73:2a:03
+	Source: 00:09:0f:09:00:02
+	Type: IPv4 (0x800)
+
+Internet Protocole Version 4, Src: 134.157.0.129 Dst: 10.64.4.158
+	Version: 0x4 (IPV4)
+	IHL: 0x5
+	Header length: 20 bytes
+	TOS: 0x0
+	Total length: 0x21a  538 bytes
+	Identification: 0x27f2
+	Flags: 0x0
+			Reserved Bit: 0
+			Don't Fragment: 0
+			More Fragment: 0
+	Fragment Offset:  000000000000  (0)
+	Time To Live: 0x3e
+	Protocol : UDP (17)
+	Header Cheksum: 0xbce5
+	Source Address: 134.157.0.129
+	Destination Address: 10.64.4.158
+
+User Datagram Protocol, Src Port: 53, Dst port: 62695
+	Source Port: 53
+	Destination Port: 62695
+	Length: 518
+	Checksum: 0x1b2c[unverified]
+	UDP payload (510 bytes)
+
+Domain Name System (response)
+	Transaction ID: 0xa847
+	Flags: 0xa847 (1000000110000000) Standard query response, No error
+			Response: Message is a response (1)
+			Op Code: Standard query (0)
+			Authoritative: Server is not an authority for domain (0)
+			Truncated: Message is not truncated (0)
+			Recursion desired: Do query recursively (1)
+			Recursion available: Server can do recursive queries (1)
+			Z: reserved (0)
+			Answer authenticated: Answer/authority portion was authenticated by the server (0)
+			Non-authenticated data: Unacceptable
+			Reply code: No error (0)
+	Questions: 1
+	Answer RRs: 2
+	Authority RRs: 10
+	Additional RRs: 9
+
+	Queries
+		mrodevicemgr.officeapps.live.com: type A, class IN
+	Answers
+		mrodevicemgr.officeapps.live.com: type CNAME, class IN, TLT 1846 sec, cname prod.mrodevicemgr.live.com.akadns.net
+		prod.mrodevicemgr.live.com.akadns.net: type A, class IN, TLT 192 sec, addr 52.109.76.40
+	Authoritative nameservers
+		akadns.net type NS, class IN, TLT 106578 sec, ns a18-128.akagtm.org
+		akadns.net type NS, class IN, TLT 106578 sec, ns a7-131akadns.net
+		akadns.net type NS, class IN, TLT 106578 sec, ns a13-130akagtm.org
+		akadns.net type NS, class IN, TLT 106578 sec, ns a5-130akagtm.org
+		akadns.net type NS, class IN, TLT 106578 sec, ns a1-128akadns.net
+		akadns.net type NS, class IN, TLT 106578 sec, ns a12-131akagtm.org
+		akadns.net type NS, class IN, TLT 106578 sec, ns a11-129akadns.net
+		akadns.net type NS, class IN, TLT 106578 sec, ns a9-128akadns.net
+		akadns.net type NS, class IN, TLT 106578 sec, ns a28-129akagtm.org
+		akadns.net type NS, class IN, TLT 106578 sec, ns a3-129akadns.net
+	Additional records
+		a1-128.akadns.net type A, class IN, TLT 32157 sec, addr 193.108.88.128
+		a3-129.akadns.net type A, class IN, TLT 24873 sec, addr 96.7.49.129
+		a3-129.akadns.net type AAAA, class IN, TLT 32184 sec, addr 2600:1408:1c::81
+		a5-130.akagtm.org type A, class IN, TLT 23778 sec, addr 95.100.168.130
+		a7-131.akadns.net type A, class IN, TLT 26473 sec, addr 23.61.199.131
+		a7-131.akadns.net type AAAA, class IN, TLT 26473 sec, addr 2600:1406:32::83
+		a9-128.akadns.net type A, class IN, TLT 24873 sec, addr 184.85.248.128
+		a11-129.akadns.net type A, class IN, TLT 27165 sec, addr 84.53.139.129
+		a12-131.akagtm.org type A, class IN, TLT 23778 sec, addr 184.26.160.131
